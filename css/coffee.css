@@ -1,0 +1,223 @@
+body {
+	background: url('../image/bg.jpg');
+}
+
+.container {
+  position: relative;
+  min-height: 1024px;
+  background: #fff;
+	margin: auto;
+	width: 1030px;	
+}
+
+.header {
+	height: 50px;
+	background: black;
+	color: white;
+	padding:0 25px;
+	margin: auto; 
+}
+
+.header img{
+	vertical-align: middle;
+	height:45px;
+}
+
+.header .header-left {
+	vertical-align: middle;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 50px; 
+	display: inline-block;
+}
+
+.header .header-right {
+	float: right;
+	vertical-align: middle;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+}
+
+.header .search {
+  margin-right: 50px;
+}
+
+.header .search input{
+  height: 30px;
+}
+
+.header .search input[type="submit"]{
+  height: 30px;
+  border-radius: 5px;
+  width: 50px;
+}
+
+#company-name a {
+	color: white;
+	text-decoration: none!important;
+	font-size: 2em;
+}
+
+.navigation {
+	background-color: #6699FF;
+	height: 50px;
+}
+
+.navigation .navbar li{
+	height: 50px;
+	line-height: 50px;
+	display: inline;
+	margin-right: 10px; 
+}
+
+.navigation .navbar li button{
+	background-color: #0099FF;
+  margin-left: 20px;
+  font-size: 18px;
+	border: none;
+  border-radius: 5px;
+}
+
+.main .banner {
+  position: relative;
+	width: 1030px;
+	height: 400px;
+	line-height: 400px;
+	overflow: hidden;
+}
+
+.main .imageList {
+  position: absolute;
+	height: 400px;
+	width: 3090px;
+	left: 0;
+}
+
+.main .banner img {
+	width: 1030px;
+	height: 400px;
+	display: block;
+	float:left;
+}
+
+.main .image-box {
+  position: relative;
+  width: 235px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 450px;
+  text-align: center;
+}
+
+.main .image-box .info {
+  position: absolute;
+  bottom: 10px;
+}
+.main .image-box img {
+  width: 95%;
+}
+
+.main .product-list {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.main .product-list .img-left {
+  position: relative;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+.main .product-list img {
+  width: 100%;
+}
+
+.main .product-list .detail-right {
+  padding-top: 20px;
+  display: table-cell;
+  width: 700px;
+  float: left;
+}
+
+.main .detail-right li {
+  list-style-type: disc;
+}
+
+.main .detail-right h2,h3 {
+  display: inline-block;
+}
+
+.main .contact {
+  height: 300px;
+  overflow: hidden;
+}
+
+.main .contact .fa{
+  font-size: 5em;
+}
+
+.main .contact .address,.phone, .email {
+  position: relative;
+  height: 280px;
+  text-align: center;
+  width: 300px;
+  margin: 15px;
+  float: left;
+  display: table-cell;
+}
+
+.main .contact .cell{
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.main .contact .phone {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.main .map {
+  margin-top: 10px;
+  width: 1030px;
+}
+
+.main .map img {
+  width: 100%;
+}
+
+.footer {
+  width: 1030px;
+  position: absolute;
+  bottom: -50px;
+  height: 50px;
+  background-color: #494949;
+  text-align: center;
+}
+
+.footer ul {  
+  padding-left: 0;
+}
+.footer li {
+  margin: 0 20px;
+  display:inline;
+  text-align:center;
+}
+
+.footer li button {
+  font-size: 24px;
+  height:50px;
+  width:50px;
+  border:2px solid;
+  border-radius:50%;
+}
